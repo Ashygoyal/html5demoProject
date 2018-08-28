@@ -12,7 +12,15 @@
   top: 27%;
   left: 5%;
   position: absolute;
+  display:block;
 }
+.container2_1 {
+  background-color: #333333;
+  color: black;
+  border-top: 5px solid #d7df23;
+  display:none;
+}
+
 .container3 {
   width: 100%
   background-color: #ffffff;
@@ -67,4 +75,27 @@
 .unchecked {
 	color: #d7df23;
     font-size: 15px;
+}
+.quick-button{
+  background-color: #d7df23;
+  font-family: Open Sans;
+  font-size: 14px;
+  width: 90%;
+  left: 5%;
+}
+
+@media only screen and (max-width: 768px){
+  .container2 {
+    width:100%;
+    left: 0%;
+    top: 10%;
+    display:none;
+  }
+  .container2_1 {
+    width:100%;
+    left: 0%;
+    top: 10%;
+    display:block;
+
+  }
 }
