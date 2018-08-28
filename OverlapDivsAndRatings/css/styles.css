@@ -74,14 +74,15 @@
 }
 .unchecked {
 	color: #d7df23;
-    font-size: 15px;
+  font-size: 15px;
 }
 .quick-button{
   background-color: #d7df23;
   font-family: Open Sans;
   font-size: 14px;
-  width: 90%;
-  left: 5%;
+  width: 91%;
+  height: 50px;
+  margin: 30px 22px -17px 27px;
 }
 
 @media only screen and (max-width: 768px){
