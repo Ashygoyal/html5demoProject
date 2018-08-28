@@ -1,0 +1,70 @@
+.container1 {
+  width: 100%;
+  background-color: #f3f3ea;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.container2 {
+  width: 90%;
+  background-color: #333333;
+  color: white;
+  border-top: 5px solid #d7df23;
+  top: 27%;
+  left: 5%;
+  position: absolute;
+}
+.container3 {
+  width: 100%
+  background-color: #ffffff;
+  border: 1px solid grey; 
+}
+.quick {
+  height: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+.quick2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-left:42px;
+  margin-top: 100px;
+}
+.separator{
+    width: 1px;
+    height: 40px;
+    background-color: #b5c1c4;
+    margin-top: -55px;
+    margin-left: 227px;
+}
+.star-rating{
+  margin-left:247px;
+  position: absolute;
+  margin-top: -38px;
+}
+.rating-count{
+    padding: 0px 5px 0px 18px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    display: inline-block;
+    color: #333333;
+}
+.review-count{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    display: inline-block;
+    color: #667a80;
+    width: 69px;
+}
+.checked {
+    color: #d7df23;
+    font-size: 15px;
+}
+.unchecked {
+	color: #d7df23;
+    font-size: 15px;
+}
