@@ -2,12 +2,17 @@
 <html lang="en">
     <head>
         <title>Pug</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/styles.css">    
   </head>
     <body>
-        <h1>Pug - node template engine</h1>
+        
         <div class="container1" class="col">
             <p>You are amazing</p>
             <p>You are amazing</p>
@@ -16,28 +21,78 @@
           <p>You are amazing</p>
            <br><br>
         </div>
-        <div class="container2" class="col">
-            <p class="quick">QUICK APPLY</p>
-          <br><br><br><br>
-        </div>
-        <div class="container2_1" class="col">
-            <button class="quick-button"> Quick Apply</button>
-          <br><br><br><br>
-        </div>        
-        <div class="container3" class="col">
-          <p class="quick2">PERSONAL LOAN</p>
-          <hr class="separator">
-          <span class="star-rating">
-            <span class="fas fa-star checked"></span>
-            <span class="fas fa-star checked"></span>
-            <span class="fas fa-star checked"></span>
-            <span class="fas fa-star-half-alt unchecked"></span>
-            <span class="far fa-star unchecked"></span>
-            <span class="rating-count"> 4.5/5</span>
-            <span class="review-count"> 190 Reviews</span>
-          </span>
-          <br> 
-        </div>
+
+        <!-- modal code below -->
+<!--           <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog"> -->
+    
+            <!-- Modal content-->
+<!--               <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+      
+            </div>
+          </div> -->
+
+
+<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-full" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span>
+          <img src="../images/close-icon.png">
+        </span>
+        </button>
+      </div>
+      <div class="modal-body p-4" id="result">
+        <p class="sampleText">The grid inside the modal is responsive too</p>
+          <div class="row">
+            <!-- include components here -->
+          </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- modal code above -->
+
+
+<div class="container2" class="col">
+  <p class="quick">QUICK APPLY</p>
+  <br><br><br><br>
+</div>
+<div class="container2_1" class="col">
+  <button class="quick-button" data-toggle="modal" data-target="#myModal"> Quick Apply</button>
+  <br><br><br><br>
+</div>        
+<div class="container3" class="col">
+  <p class="quick2">PERSONAL LOAN</p>
+  <hr class="separator">
+  <span class="star-rating">
+    <span class="fas fa-star checked"></span>
+    <span class="fas fa-star checked"></span>
+    <span class="fas fa-star checked"></span>
+    <span class="fas fa-star-half-alt unchecked"></span>
+    <span class="far fa-star unchecked"></span>
+    <span class="rating-count"> 4.5/5</span>
+    <span class="review-count"> 190 Reviews</span>
+  </span>
+  <br> 
+</div>
+
+
     </body>
 </html>
           

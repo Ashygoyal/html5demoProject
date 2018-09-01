@@ -85,6 +85,28 @@
   margin: 30px 22px -17px 27px;
 }
 
+.modal-full {
+  min-width: 100%;
+  margin: 0;
+}
+
+.modal-full .modal-content {
+  min-height: 100vh;
+  background-color: #333333;
+}
+
+.modal-header {
+  border-bottom: 1px solid #333333;
+}
+
+.modal-footer {
+  border-top: 1px solid #333333;
+}
+
+.sampleText {
+  color: white;
+}
+
 @media only screen and (max-width: 768px){
   .container2 {
     width:100%;
